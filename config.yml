@@ -1,5 +1,5 @@
 config:
-  target: 'https://artillery.io'
+  target: 'https://test.essentialneed.org'
   phases:
     - duration: 1
       arrivalRate: 1
@@ -8,3 +8,26 @@ scenarios:
   - flow:
     - get:
         url: "/"
+
+scenarios:
+  -
+    name: "Browsing"
+    flow:
+      -
+        get:
+          url: "/"
+      -
+        think: 2
+      -
+        get:
+          url: "/about-us"
+      -
+        think: 2
+      -
+        get:
+          url: "/meet-our-team"
+      -
+        think: 2
+      -
+        get:
+          url: "/login"
