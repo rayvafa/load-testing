@@ -1,0 +1,19 @@
+{
+  "name": "load-testing",
+  "version": "1.0.0",
+  "description": "Load Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "artillery run config.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayvafa/load-testing.git"
+  },
+  "author": "Ray Vafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayvafa/load-testing/issues"
+  },
+  "homepage": "https://github.com/rayvafa/load-testing#readme"
+}
