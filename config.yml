@@ -1,13 +1,8 @@
 config:
   target: 'https://test.essentialneed.org'
   phases:
-    - duration: 1
-      arrivalRate: 1
-
-scenarios:
-  - flow:
-    - get:
-        url: "/"
+    - duration: 8
+      arrivalRate: 50
 
 scenarios:
   -
